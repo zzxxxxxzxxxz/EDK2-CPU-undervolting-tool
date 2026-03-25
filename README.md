@@ -1,2 +1,2 @@
 # EDK2-CPU-undervolting-tool
-Intel CPU undervolting tool based on edk2, which can apply voltage offset to the CPU without flashing the BIOS
+EDK2-based Intel CPU undervolting tool, which can apply a voltage offset to the CPU without modifying the BIOS
