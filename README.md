@@ -14,3 +14,14 @@ Specifically, during BIOS operation, we can actively load desktop 0x104 or 0x105
 The above method is also effective on the laptop platform: after loading the old microcode, UVP is bypassed, and users can safely apply undervolting to reduce power consumption and temperature, and even improve multi-core performance. 
 
 However, the CEP protection mechanism on the laptop platform itself cannot be disabled, so we cannot set as low ACLL (AC Load Line) values as on desktops, and the amount of undervolting is still somewhat limited. Nevertheless, compared to the situation where undervolting is completely impossible, this solution already provides considerable tuning potential for HX55 users.
+
+
+
+
+
+//........//
+The following are commonly used CPU MSR registers and their basic read/write syntax during processor tuning：
+MSR 0X150
+MSR 0X1AD
+MSR 0X650
+MSR 0X610
